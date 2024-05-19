@@ -311,12 +311,12 @@ Attach.MouseButton1Click:Connect(function()
     if injected == true then
         title.Text = "R-EUI(已经注入了)"
         wait(1)
-        title.Text = "R-EUI"
+        title.Text = "R-EUI(已注入)"
     end
     if injected == false then
         title.Text = "R-EUI (扫描中)"
         wait(0.3)
-        title.Text = "R-EIO (准备就绪!)"
+        title.Text = "R-EUI (已注入)"
         wait(0.5)
         injected = true
     end
