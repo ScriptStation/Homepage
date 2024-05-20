@@ -19,7 +19,7 @@ end)]]
 local G2L = {};
 -- StarterGui.SynapseX
 G2L["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"));
-G2L["1"]["Name"] = [[SynapseX]];
+G2L["1"]["Name"] = [[R-EUI]];
 G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.SynapseX.FloatingIcon
@@ -111,7 +111,7 @@ G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["Visible"] = false;
 G2L["c"]["Size"] = UDim2.new(0, 56, 0, 16);
 G2L["c"]["Name"] = [[Tab]];
-G2L["c"]["Text"] = [[  Script 1]];
+G2L["c"]["Text"] = [[  脚本1]];
 G2L["c"]["Position"] = UDim2.new(-0.0003878306597471237, 0, -0.011710520833730698, 0);
 G2L["c"]["BackgroundTransparency"] = 0.10000000149011612;
 
@@ -124,7 +124,7 @@ G2L["d"]["TextSize"] = 15;
 G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d"]["Size"] = UDim2.new(0, 10, 0, 10);
-G2L["d"]["Name"] = [[Remove]];
+G2L["d"]["Name"] = [[删除]];
 G2L["d"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 G2L["d"]["Text"] = [[x]];
 G2L["d"]["Position"] = UDim2.new(0, 46, 0, 2);
@@ -251,7 +251,7 @@ G2L["17"]["AutomaticCanvasSize"] = Enum.AutomaticSize.XY;
 G2L["17"]["Size"] = UDim2.new(0, 101, 0, 215);
 G2L["17"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["17"]["Position"] = UDim2.new(5.420000076293945, 0, 0.30000001192092896, 0);
-G2L["17"]["Name"] = [[ScriptHub]];
+G2L["17"]["Name"] = [[脚本中心]];
 
 -- StarterGui.SynapseX.Main.MainFunc.ScriptHub.UIListLayout
 G2L["18"] = Instance.new("UIListLayout", G2L["17"]);
@@ -304,7 +304,7 @@ G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["1e"]["TextSize"] = 15;
 G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["Size"] = UDim2.new(0, 646, 0, 27);
-G2L["1e"]["Text"] = "Synapse X - "..synversion;
+G2L["1e"]["Text"] = "R-EUI - "..synversion;
 G2L["1e"]["Name"] = [[TitleSynapse]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 
@@ -313,7 +313,7 @@ G2L["1f"] = Instance.new("ImageButton", G2L["6"]);
 G2L["1f"]["BorderSizePixel"] = 0;
 G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["1f"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["1f"]["Name"] = [[ScriptHub]];
+G2L["1f"]["Name"] = [[脚本中心]];
 G2L["1f"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["1f"]["Position"] = UDim2.new(0, 560, 0, 250);
 
@@ -349,7 +349,7 @@ G2L["23"] = Instance.new("ImageButton", G2L["6"]);
 G2L["23"]["BorderSizePixel"] = 0;
 G2L["23"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["23"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["23"]["Name"] = [[Options]];
+G2L["23"]["Name"] = [[设置]];
 G2L["23"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["23"]["Position"] = UDim2.new(0, 352, 0, 250);
 
@@ -364,7 +364,7 @@ G2L["24"]["TextSize"] = 14;
 G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["24"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["24"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["24"]["Text"] = [[Options]];
+G2L["24"]["Text"] = [[设置]];
 G2L["24"]["Name"] = [[NameText]];
 G2L["24"]["BackgroundTransparency"] = 1;
 
@@ -435,7 +435,7 @@ G2L["2c"]["TextSize"] = 14;
 G2L["2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["2c"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["2c"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2c"]["Text"] = [[Execute]];
+G2L["2c"]["Text"] = [[执行]];
 G2L["2c"]["Name"] = [[NameText]];
 G2L["2c"]["BackgroundTransparency"] = 1;
 
@@ -456,7 +456,7 @@ G2L["2f"] = Instance.new("ImageButton", G2L["6"]);
 G2L["2f"]["BorderSizePixel"] = 0;
 G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["2f"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["2f"]["Name"] = [[SaveFile]];
+G2L["2f"]["Name"] = [[保存文件]];
 G2L["2f"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["2f"]["Position"] = UDim2.new(0, 266, 0, 250);
 
@@ -471,7 +471,7 @@ G2L["30"]["TextSize"] = 14;
 G2L["30"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["30"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["30"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["30"]["Text"] = [[Save File]];
+G2L["30"]["Text"] = [[保存文件]];
 G2L["30"]["Name"] = [[NameText]];
 G2L["30"]["BackgroundTransparency"] = 1;
 
@@ -492,7 +492,7 @@ G2L["33"] = Instance.new("ImageButton", G2L["6"]);
 G2L["33"]["BorderSizePixel"] = 0;
 G2L["33"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["33"]["Size"] = UDim2.new(0, 15, 0, 15);
-G2L["33"]["Name"] = [[Close]];
+G2L["33"]["Name"] = [[关闭]];
 G2L["33"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["33"]["Position"] = UDim2.new(0, 627, 0, 2);
 
@@ -527,7 +527,7 @@ G2L["37"] = Instance.new("ImageButton", G2L["6"]);
 G2L["37"]["BorderSizePixel"] = 0;
 G2L["37"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["37"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["37"]["Name"] = [[Clear]];
+G2L["37"]["Name"] = [[清空]];
 G2L["37"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["37"]["Position"] = UDim2.new(0, 92, 0, 250);
 
@@ -542,7 +542,7 @@ G2L["38"]["TextSize"] = 14;
 G2L["38"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["38"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["38"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["38"]["Text"] = [[Clear]];
+G2L["38"]["Text"] = [[清空]];
 G2L["38"]["Name"] = [[NameText]];
 G2L["38"]["BackgroundTransparency"] = 1;
 
@@ -563,7 +563,7 @@ G2L["3b"] = Instance.new("ImageButton", G2L["6"]);
 G2L["3b"]["BorderSizePixel"] = 0;
 G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["3b"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["3b"]["Name"] = [[Attach]];
+G2L["3b"]["Name"] = [[注入]];
 G2L["3b"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["3b"]["Position"] = UDim2.new(0, 474, 0, 250);
 
@@ -578,7 +578,7 @@ G2L["3c"]["TextSize"] = 14;
 G2L["3c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["3c"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["3c"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3c"]["Text"] = [[Attach]];
+G2L["3c"]["Text"] = [[注入]];
 G2L["3c"]["Name"] = [[NameText]];
 G2L["3c"]["BackgroundTransparency"] = 1;
 
@@ -599,7 +599,7 @@ G2L["3f"] = Instance.new("ImageButton", G2L["6"]);
 G2L["3f"]["BorderSizePixel"] = 0;
 G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
 G2L["3f"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["3f"]["Name"] = [[OpenFile]];
+G2L["3f"]["Name"] = [[打开文件]];
 G2L["3f"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["3f"]["Position"] = UDim2.new(0, 179, 0, 250);
 
@@ -614,7 +614,7 @@ G2L["40"]["TextSize"] = 14;
 G2L["40"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["40"]["Size"] = UDim2.new(0, 82, 0, 27);
 G2L["40"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["40"]["Text"] = [[Open File]];
+G2L["40"]["Text"] = [[打开文件]];
 G2L["40"]["Name"] = [[NameText]];
 G2L["40"]["BackgroundTransparency"] = 1;
 
@@ -648,7 +648,7 @@ G2L["43"]["Selectable"] = false;
 G2L["43"]["ClipsDescendants"] = false;
 G2L["43"]["ScrollBarThickness"] = 3;
 G2L["43"]["Position"] = UDim2.new(0, 6, 0, 32);
-G2L["43"]["Name"] = [[ScriptTab]];
+G2L["43"]["Name"] = [[脚本Tab]];
 G2L["43"]["SelectionGroup"] = false;
 
 -- StarterGui.SynapseX.Main.ScriptTab.ScriptTabHandler
@@ -3211,7 +3211,7 @@ local function C_83()
 	local stuff  =script.Parent
 
 	stuff.Buttons.Discord.MouseButton1Up:Connect(function()
-		setclipboard("XYFXYNmG4D")
+		setclipboard("960879079")
 	end)
 	stuff.Buttons.Rejoin.MouseButton1Up:Connect(function()
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
