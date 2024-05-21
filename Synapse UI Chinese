@@ -729,7 +729,7 @@ G2L["4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["4c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["4c"]["Size"] = UDim2.new(0, 317, 0, 19);
 G2L["4c"]["Name"] = [[savescript]];
-G2L["4c"]["Text"] = [[Save File]];
+G2L["4c"]["Text"] = [[保存文件]];
 G2L["4c"]["Position"] = UDim2.new(0, 3, 0, 56);
 
 -- StarterGui.SynapseX.SaveScript.Icon
@@ -818,7 +818,7 @@ G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["55"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["55"]["Size"] = UDim2.new(0, 116, 0, 19);
 G2L["55"]["Name"] = [[Script1]];
-G2L["55"]["Text"] = [[Script1]];
+G2L["55"]["Text"] = [[脚本1]];
 
 -- StarterGui.SynapseX.ScriptLog.MainFrame.A8SDMZAS89DZANSA98F
 G2L["56"] = Instance.new("TextButton", G2L["53"]);
@@ -1457,7 +1457,7 @@ G2L["8d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["8d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8d"]["Size"] = UDim2.new(0, 317, 0, 19);
 G2L["8d"]["Name"] = [[savescript]];
-G2L["8d"]["Text"] = [[Open FIle]];
+G2L["8d"]["Text"] = [[打开文件]];
 G2L["8d"]["Position"] = UDim2.new(0, 3, 0, 56);
 
 -- StarterGui.SynapseX.OpenScript.Icon
@@ -1486,7 +1486,7 @@ G2L["90"]["TextSize"] = 15;
 G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["90"]["Size"] = UDim2.new(0, 322, 0, 30);
 G2L["90"]["Active"] = true;
-G2L["90"]["Text"] = [[Synapse X - Open FIle]];
+G2L["90"]["Text"] = [[R-EUI X - 打开文件]];
 G2L["90"]["Name"] = [[Title]];
 G2L["90"]["BackgroundTransparency"] = 1;
 
@@ -3142,8 +3142,8 @@ local function C_71()
 				pcall(function() v.Visible = true end)
 			end
 		end
-		script.Parent.Description.Text = [[A version of the popular Dex explorer with
-		patches specifically for Synapse X.]]
+		script.Parent.Description.Text = [[流行的 Dex 浏览器的一个版本，具有
+		专门针对 Synapse X 的补丁。]]
 	end)
 
 	yes.Background.ScrollingFrame.RemoteSpy.MouseButton1Up:Connect(function()
@@ -3154,7 +3154,7 @@ local function C_71()
 				pcall(function() v.Visible = true end)
 			end
 		end
-		script.Parent.Description.Text = [[Allows you to view RemoteEvents and
+		script.Parent.Description.Text = [[允许您查看 RemoteEvents 和
 		RemoteFunctions calleld.]]
 	end)
 
@@ -3166,7 +3166,7 @@ local function C_71()
 				pcall(function() v.Visible = true end)
 			end
 		end
-		script.Parent.Description.Text = [[ESP made by ic3w0lf using the Drawing API.]]
+		script.Parent.Description.Text = [[ESP]]
 	end)
 
 	yes.Background.ScrollingFrame.ScriptDumper.MouseButton1Up:Connect(function()
