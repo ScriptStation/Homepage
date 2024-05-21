@@ -1162,7 +1162,7 @@ G2L["73"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.
 G2L["73"]["TextSize"] = 14;
 G2L["73"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["73"]["Size"] = UDim2.new(0, 199, 0, 26);
-G2L["73"]["Text"] = [[Options]];
+G2L["73"]["Text"] = [[设置]];
 G2L["73"]["Name"] = [[Title]];
 G2L["73"]["BackgroundTransparency"] = 1;
 G2L["73"]["Position"] = UDim2.new(-0.0011280769249424338, 0, 0.07083868235349655, 0);
@@ -3177,7 +3177,7 @@ local function C_71()
 				pcall(function() v.Visible = true end)
 			end
 		end
-		script.Parent.Description.Text = [[Dumps all LocalScripts an ModuleScripts.]]
+		script.Parent.Description.Text = [[转储所有 LocalScripts 和 ModuleScripts。]]
 	end)
 
 	yes.Execute.MouseButton1Up:Connect(function()
@@ -3462,5 +3462,5 @@ local function C_93()
    
 end;
 task.spawn(C_93);
-
+script.Parent.Title.Text = "R-EUI X"
 return G2L["1"], require;
